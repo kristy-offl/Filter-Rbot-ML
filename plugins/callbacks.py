@@ -47,12 +47,11 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/ML_BotUpdates"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/ML_SupportGroup")
+                    InlineKeyboardButton("BOT Channel", url="https://t.me/Tamil_Tentkotta"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/Tentkotta_Group")
                 ]
             ]
         )
@@ -69,8 +68,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/kristy-offl/Filter-Rbot-ML")
+             
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
